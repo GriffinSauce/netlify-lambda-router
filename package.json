@@ -1,0 +1,20 @@
+{
+  "name": "netlify-lambda-router",
+  "version": "0.0.1",
+  "description": "A router for Netlify lambda functions",
+  "main": "index.js",
+  "author": "GriffinSauce <jorisjgriffioen@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "NODE_ENV=test jest",
+    "test-watch": "NODE_ENV=test yarn run test --watch",
+    "test-cover": "NODE_ENV=test yarn run test --coverage",
+    "test-ci": "NODE_ENV=test yarn run test --ci --maxWorkers=4"
+  },
+  "dependencies": {
+    "path-to-regexp": "^3.1.0"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
